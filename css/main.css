@@ -1,3 +1,20 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-self: center; }
+
+header h1 {
+  grid-column: 1;
+  align-self: center; }
+
+header a {
+  grid-column: 1;
+  grid-row: 2; }
+
+body {
+  font-family: 'Dosis', sans-serif; }
+
 img {
   width: 50%; }
 
