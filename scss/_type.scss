@@ -1,17 +1,29 @@
-header{
+
+
+.hook{
 	display: grid;
-	grid-template-columns: 1fr;
+	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: 1fr 1fr;
-	align-self: center;
+	padding-left: 2rem;
+	h2{
+		font-size: 5rem;
+		grid-column: 2 / span 4;
+		font-family: 'Dosis', sans-serif;
+		color: #FFF6F6;
+		z-index: 1;
+
+	}
+	p{
+		grid-column: 1 / span 3;
+		padding-left: 2rem;
+		font-size: 1.3rem;
+		font-weight: 300;
+		background-color: #FCEFEF;
+		border-radius: 30px;
+		padding: 2rem;
+	}
 }
 
-header h1{
-	grid-column: 1;
-	align-self: center;
 
-}
 
-header a{
-	grid-column: 1;
-	grid-row: 2;
-}
+
