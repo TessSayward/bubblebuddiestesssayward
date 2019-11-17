@@ -3,7 +3,7 @@
 .hook{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: 1fr 1fr;
+	grid-template-rows: .5fr 1fr;
 	padding-left: 2rem;
 	h2{
 		font-size: 5rem;
@@ -11,6 +11,8 @@
 		font-family: 'Dosis', sans-serif;
 		color: #FFF6F6;
 		z-index: 1;
+		margin-bottom: -2.3rem;
+
 
 	}
 	p{
@@ -24,6 +26,32 @@
 	}
 }
 
+
+.plantstory{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 1fr 1fr;
+	padding-right: 2rem;
+	h2{
+		font-size: 5rem;
+		font-family: 'Dosis', sans-serif;
+		color: #FFF6F6;
+		z-index: 1;
+		grid-column: 2 / span 3;
+		margin-bottom: -3rem;
+
+	}
+	p{
+		grid-column: 2 / span 4;
+		grid-row: 2;
+		font-size: 1.3rem;
+		font-weight: 300;
+		background-color: #FCEFEF;
+		border-radius: 30px;
+		padding: 2rem;
+	}
+
+}
 
 
 
