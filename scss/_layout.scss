@@ -9,3 +9,25 @@ img{
 	width:100%;
 }
 
+
+.bigwords{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr 1fr;
+	z-index: -1;
+	position: relative;
+	h2{
+		grid-column: 1 / span 2;
+		font-size: 12rem;
+		justify-self: end;
+		padding: 0;
+
+
+	}
+	h3{
+		grid-column: 2 / span 3;
+		grid-row: 2;
+		font-size: 6rem;
+	}
+
+}

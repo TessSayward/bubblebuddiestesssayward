@@ -1,17 +1,16 @@
-var $container = $('.tab-container');
-
-var makeTabs = function(){
-
-  $container
-  	.children().hide()
-  	.eq(0).show(); 
+$('header a').click(function(event){
   
-  makeTabNav();
+  // prevent defalt click behavior
+  // don't jump to content
+  event.preventDefault();
+    
+  // identify position of target
+  var target = $(this).attr('href');
+  var top = $(target).offset().top;
 
-}
+  // animate scroll to target
+  $('html,body').animate({
+    scrollTop: top
+    },700);
 
-
-
-
-// provide mechanism for history/back and hashes
-
+});
