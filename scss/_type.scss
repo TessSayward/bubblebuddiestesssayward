@@ -28,6 +28,45 @@
 	}
 }
 
+@media screen and (max-width: 39.9375em){
+	.hook{
+		padding-right: 2rem;
+	}
+	.hook p{
+		grid-column: 1 / span 4;
+	
+	}
+	.hook h2{
+		grid-column: 1 / span 4;
+		margin-bottom: -2.8rem;
+
+	}
+	.plantstory h2{
+		
+	}
+
+}
+
+@media screen and (max-width: 60em){
+	.hook{
+		padding-right: 2rem;
+	}
+	.hook h2{
+		grid-column: 1 / span 4;
+		font-size: 4.2rem;
+    	margin-top: 10rem;
+
+	}
+	.hook p{
+		grid-column: 1 / span 4;
+	}
+
+	.plantstory p{
+		grid-column: 1 / span 4;
+	}
+
+}
+
 
 .plantstory{
 	display: grid;
@@ -55,7 +94,8 @@
 		text-align: right;
 		line-height: 1.9rem;
 		color: #686767;
-		}
+		margin-top: -1.5rem;
+		text-align: justify;		}
 
 }
 

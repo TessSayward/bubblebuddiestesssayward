@@ -1,3 +1,9 @@
+
+
+AOS.init();
+
+
+
 $('header a').click(function(event){
   
   // prevent defalt click behavior
@@ -14,3 +20,8 @@ $('header a').click(function(event){
     },700);
 
 });
+
+
+
+
+

@@ -4,3 +4,26 @@
 	padding: 10rem 0 10rem 0;
 	place-self: center;
 }
+
+@media screen and (max-width: 39.9375em){
+	.iconbubble{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(3, 1fr);
+	}
+}
+
+@media screen and (max-width: 60em){
+	.iconbubble{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(3, 1fr);
+
+	}
+	.iconbubble img{
+		width: 70%;
+		place-self: center;
+		padding: 1rem;
+	}
+
+}

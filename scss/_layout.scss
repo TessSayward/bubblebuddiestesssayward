@@ -35,3 +35,36 @@ img{
 	}
 
 }
+
+@media screen and (max-width: 39.9375em){
+	.bigwords{
+		padding-left: 2rem;
+		text-align: center;
+	}
+	.bigwords h2{
+		grid-column: 1 / span 3;
+	}
+	.bigwords h3{
+		grid-column: 1 / span 3;
+    margin-top: -1rem;
+    color: lightpink;
+    
+	}
+}
+
+@media screen and (max-width: 60em){
+	.bigwords{
+		padding-left: 2rem;
+		text-align: center;
+	}
+	.bigwords h2{
+		grid-column: 1 / span 3;
+		justify-self: start;
+	}
+	.bigwords h3{
+		grid-column: 1 / span 3;
+    margin-top: -1rem;
+    color: lightpink;
+    
+	}
+}
